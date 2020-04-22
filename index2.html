@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" ng-app>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>star wars</title>
+
+    <script src="angular/angular.min.js"></script>
+    
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Add custom CSS here -->
+    <link href="css/business-casual.css" rel="stylesheet">
+</head>
+
+<body>  
+    <div>
+    <section class="banner"><img class="img-responsive" src="img/Banner.png"></section>     
+    <nav class="box col-xs-2 col-sm-2 col-lg-1">
+        <ul class="nav">
+        <li>
+        <img class="img-responsive" src="img/home.svg">
+        <center><button> 
+        <h5 class="text-center">Inicio</h5>
+        </button></center>    
+        </li><br> 
+            
+        <li>
+        <img class="img-responsive img-full" src="img/peliculas.svg">
+        <center><button> 
+        <h5 class="text-center" ng-model="pelicula" >Peliculas</h5>
+        </button></center>    
+        </li><br>
+            
+        <li>
+        <img class="img-responsive img-full" src="img/personajes.png">
+        <center><button> 
+        <h5 class="text-center">Personajes</h5>
+        </button></center>    
+        </li><br>
+            
+        <li>
+        <img class="img-responsive img-full" src="img/mundos.svg">
+        <center><button> 
+        <h5 class="text-center">Mundos</h5>
+        </button></center> 
+        </li><br>
+            
+        <li>
+        <img class="img-responsive img-full" src="img/naves.svg">
+        <center><button> 
+        <h5 class="text-center">Naves</h5>
+        </button></center> 
+        </li>              
+        </ul>        
+    </nav>
+    
+<center>  
+<div class="espacio" >
+</div>
+<h1><span class="label label-warning">Pelicula</span>    
+</h1> 
+<br>    
+<div class="buscar">
+  <div class="container-1">
+      <span class="icon"><i class="fa fa-search"></i></span>
+      <input type="search" id="search" placeholder="" />
+  </div>
+</div>  
+<br>    
+<button type="button" class="btn btn-warning">Buscar</button>  
+</center>    
+
+<br><br><br>    
+<center>          
+    <div class="row">
+        <div class="col-xs-3">
+            <img class="img-responsive img-border-left" src="img/pelicula%201.jpg" alt="">
+        </div>
+        <div class="col-xs-3">
+            <img class="img-responsive img-border-left" src="img/pelicula%202.jpg" alt="">
+        </div>
+        <div class="col-xs-3">
+            <img class="img-responsive img-border-left" src="img/pelicula%203.jpg" alt="">     
+        </div> 
+    </div> 
+</center>      
+         
+</div>    
+
+    <!-- JavaScript -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+</body>
+
+</html>
